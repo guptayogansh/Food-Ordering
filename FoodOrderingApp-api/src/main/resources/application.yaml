@@ -1,11 +1,9 @@
-
 server:
   servlet:
     port: 8080
     contextPath: /api
 
 spring:
-
   application:
     name: FoodOrderingApp-api
 
@@ -13,7 +11,7 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/restaurantdb
     username: postgres
-    password: password
+    password: postgres
 
   jpa:
     properties:
